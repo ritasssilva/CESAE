@@ -12,13 +12,14 @@ public class Ex_02 {
         System.out.println("Introduza um numero: ");
         num1 = input.nextInt();
 
-        System.out.println("Introduza um numero: ");
+        System.out.println("Introduza outro numero: ");
         num2 = input.nextInt();
 
         soma = num1 + num2;
         subtracao = num1 - num2;
         multiplicacao = num1 * num2;
         divisao = num1 / num2;
+
         System.out.println("Soma: " + soma);
         System.out.println("Subtracao: " + subtracao);
         System.out.println("Multiplicacao: " + multiplicacao);

@@ -9,6 +9,7 @@ public class Ex_03 {
         Scanner input = new Scanner(System.in);
 
         double comprimento, largura, area, perimetro;
+
         System.out.println("Introduza o comprimento do retangulo: ");
         comprimento = input.nextDouble();
 

@@ -6,7 +6,7 @@ public class Ex_01 {
 
     public static void main(String[] args) {
 
-        // Import Scanner - uso sempre que precisar de ler coisas do teclado
+        // Import Scanner - uso sempre que precisar de ler dados do teclado
         Scanner input = new Scanner(System.in);
 
         // Declarar variáveis

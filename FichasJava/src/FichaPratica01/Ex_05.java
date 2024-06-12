@@ -20,8 +20,8 @@ public class Ex_05 {
 
         mediaAritmetica = (valor1 + valor2 + valor3) / 3;
         mediaPonderada = (valor1 * 0.2 + valor2 * 0.3 + valor3 * 0.5) / 3;
-        System.out.println("A média aritmética dos valores é: " + mediaAritmetica);
 
+        System.out.println("A média aritmética dos valores é: " + mediaAritmetica);
         System.out.println("A média ponderada dos valores é: " + mediaPonderada);
 
     }

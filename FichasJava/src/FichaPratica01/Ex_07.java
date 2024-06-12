@@ -7,7 +7,7 @@ public class Ex_07 {
     public static void main(String[] args) {
         Scanner input = new Scanner(System.in);
 
-        Double produto1, produto2, produto3, total, efetivo;
+        double produto1, produto2, produto3, total, efetivo;
         System.out.println("Introduza o preço do produto 1: ");
         produto1 = input.nextDouble();
         System.out.println("Introduza o preço do produto 2: ");
