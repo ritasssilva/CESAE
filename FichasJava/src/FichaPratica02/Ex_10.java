@@ -7,29 +7,42 @@ public class Ex_10 {
 
         System.out.println("***** Exercício 10 *****");
 
+        // Import do Scanner
         Scanner input = new Scanner(System.in);
 
-        double num1, num2;
+        // Declarar variáveis
+        double num1, num2, resultado;
         String operacao;
 
+        // Ler valores
         System.out.println("Introduza um número: ");
         num1 = input.nextDouble();
         System.out.println("Introduza outro número: ");
         num2 = input.nextDouble();
-        System.out.println("Introduza a operação: ");
+
+        // Ler operação
+        System.out.println("Operação desejada (+ - * /): ");
         operacao = input.next();
 
         switch (operacao) {
-            case "+": System.out.println(num1 + num2);
+            case "+": // Soma
+                resultado = num1 + num2;
+                System.out.println(num1 + " + " + num2 + " = " + resultado);
                 break;
-            case "-": System.out.println(num1 - num2);
+            case "-": // Subtração
+                resultado = num1 - num2;
+                System.out.println(num1 + " - " + num2 + " = " + resultado);
                 break;
-            case "*": System.out.println(num1 * num2);
+            case "*": // Multiplicação
+                resultado = num1 * num2;
+                System.out.println(num1 + " * " + num2 + " = " + resultado);
                 break;
-            case "/": System.out.println(num1 / num2);
+            case "/": // Divisão
+                resultado = num1 / num2;
+                System.out.println(num1 + " / " + num2 + " = " + resultado);
                 break;
             default:
-                System.out.println("Erro: introduza dois valores e um sinal de operação aritmética.");
+                System.out.println("Erro: Operação não reconhecida");
 
         }
 

@@ -8,25 +8,35 @@ public class Ex_12 {
 
         System.out.println("***** Exercício 12 *****");
 
+        // Import do scanner
         Scanner input = new Scanner(System.in);
 
 
-        //Declarar variáveis
+        // Declarar variáveis
         int opcao;
 
+        // Apresentar opções
+        System.out.println("1. Criar");
+        System.out.println("2. Atualizar");
+        System.out.println("3. Eliminar");
+        System.out.println("4. Sair");
+
         //Ler variáveis
-        System.out.println("Introduza o número da opção que pretende selecionar:\n 1. Criar \n 2. Atualizar\n 3. Eliminar\n 4. Sair");
+        System.out.println("Insira a opção: ");
         opcao = input.nextInt();
 
-        //Devolver resposta ao utilizador
+        // Devolver resposta ao utilizador
         switch (opcao) {
-            case 1: System.out.println("Criar");
+            case 1: // Criar
+                System.out.println("*** Criar ***");
                 break;
-            case 2: System.out.println("Atualizar");
+            case 2: // Atualizar
+                System.out.println("*** Atualizar ***");
                 break;
-            case 3: System.out.println("Eliminar");
+            case 3: // Eliminar
+                System.out.println("*** Eliminar ***");
                 break;
-            case 4: System.out.println("");
+            case 4: // Sair
                 break;
             default: System.out.println("Opção inválida. Por favor introduza o número da opção pretendida, de 1 a 4.");
                 break;

@@ -16,9 +16,11 @@ public class Ex_17 {
         // Determina o crédito com base no saldo médio
         if (saldoMedio > 6000) {
             credito = saldoMedio * 0.40;
-        } else if (saldoMedio > 4000) {
+        }
+        if (saldoMedio > 4000) {
             credito = saldoMedio * 0.30;
-        } else if (saldoMedio > 2000) {
+        }
+        if (saldoMedio > 2000) {
             credito = saldoMedio * 0.20;
         } else {
             credito = 0;

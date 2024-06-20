@@ -26,7 +26,7 @@ public class Ex_09 {
         vencimentoLiquido = vencimentoIliquido - retencaoIRS - segurancaSocial;
 
         // Apresentar os resultados
-        System.out.println("Código de Funcionário: " + codigoFuncionario + "€");
+        System.out.println("Código de Funcionário: " + codigoFuncionario);
         System.out.println("Vencimento Ilíquido: " + vencimentoIliquido + "€");
         System.out.println("Subsídio Alimentação: " + subsidioAlimentacao + "€");
         System.out.println("Valor da Retenção de IRS: " + retencaoIRS + "€");

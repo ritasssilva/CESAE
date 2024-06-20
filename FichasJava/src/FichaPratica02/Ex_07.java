@@ -7,15 +7,18 @@ public class Ex_07 {
 
         Scanner input = new Scanner(System.in);
 
+        // Declarar variável
         int numero;
 
+        // Ler num
         System.out.println("Introduza um número: ");
         numero = input.nextInt();
 
-        if (numero % 2 == 0)
+        // Avaliar se é par
+        if (numero % 2 == 0) {
             System.out.println("O número é par.");
-        else
+        } else {
             System.out.println("O número é ímpar.");
-
+        }
     }
 }

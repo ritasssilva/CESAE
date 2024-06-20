@@ -29,12 +29,24 @@ public class Ex_16 {
         valor %= 5;
 
         // Mostra a quantidade de cada nota
-        if (notas200 > 0) System.out.println("Notas de 200 euros: " + notas200);
-        if (notas100 > 0) System.out.println("Notas de 100 euros: " + notas100);
-        if (notas50 > 0) System.out.println("Notas de 50 euros: " + notas50);
-        if (notas20 > 0) System.out.println("Notas de 20 euros: " + notas20);
-        if (notas10 > 0) System.out.println("Notas de 10 euros: " + notas10);
-        if (notas5 > 0) System.out.println("Notas de 5 euros: " + notas5);
+        if (notas200 > 0) {
+            System.out.println("Notas de 200 euros: " + notas200);
+        }
+        if (notas100 > 0) {
+            System.out.println("Notas de 100 euros: " + notas100);
+        }
+        if (notas50 > 0) {
+            System.out.println("Notas de 50 euros: " + notas50);
+        }
+        if (notas20 > 0) {
+            System.out.println("Notas de 20 euros: " + notas20);
+        }
+        if (notas10 > 0) {
+            System.out.println("Notas de 10 euros: " + notas10);
+        }
+        if (notas5 > 0) {
+            System.out.println("Notas de 5 euros: " + notas5);
+        }
 
         // Verifica se o valor é múltiplo de 5
         if (valor % 5 != 0) {

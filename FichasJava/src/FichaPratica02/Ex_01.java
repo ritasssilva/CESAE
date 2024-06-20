@@ -6,8 +6,10 @@ public class Ex_01 {
 
     public static void main(String[] args) {
 
+        // Import the Scanner
         Scanner input = new Scanner(System.in);
 
+        // Declarar variáveis
         int num1, num2;
 
         System.out.println("Introduza um número: ");
@@ -15,10 +17,16 @@ public class Ex_01 {
         System.out.println("Introduza outro número: ");
         num2 = input.nextInt();
 
-        if (num1 > num2)
-            System.out.println("Maior: " + num1);
-        else
-            System.out.println("Maior: " + num2);
+        //Avaliar qual dos dois numeros é maior
 
+        if (num1 == num2) {
+            System.out.println("Os números são iguais");
+        } else {
+            if (num1 > num2) {
+                System.out.println("Maior: " + num1);
+            } else {
+                System.out.println("Maior: " + num2);
+            }
+        }
     }
 }

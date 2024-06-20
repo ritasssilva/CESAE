@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formulário</title>
+    <link rel="icon" type="image/fav-icon" href="/images/cesae_favicon.png">
+</head>
+<body>
+    <header style="text-align: center;">
+            <img src="images/logo_cesae.png" alt="" width="300px" alt="Logotipo do CESAE">   
+            <br>
+            <a target=_blank href="https://www.cesaedigital.pt/">Ir para site oficial</a>  
+    </header>
+    <nav>
+        <br><br>
+        <a href="https://www.facebook.com/CesaeDigital" target="_blank"><img src="images/logo_facebook.png" height="40px" alt="Logo do Facebook"></a>
+        <a href="https://www.linkedin.com/company/cesae-digital/mycompany/" target="_blank"><img src="images/logo_linkedin.png" height="40px" alt="Logo do LinkedIn"></a>
+        <a href="https://www.youtube.com/user/CESAECanal" target="_blank"><img src="images/logo_youtube.png" height="40px" alt="Logo do YouTube"></a>
+        <p><a href="/multimedia.html">Multimedia</a> | <a href="/form.html">Formulário de contacto</a> </p>
+    </nav>
+
+
+    <main>
+    <hr>
+    <form action="">
+        <fieldset>
+            <legend>Formulário de contacto do CESAE</legend>
+            <div>
+                <label for="form-nome">Nome:*</label>
+                <input type="text" name="form-nome" id="form-nome" placeholder="Insira o seu nome aqui" required>
+            </div>
+            <div>
+                <label for="form-email">Email:</label>
+                <input type="email" name="form-email" id="form-email">
+            </div>
+            <div>
+                <label for="form-cor">Género</label>
+                <br>
+                <input type="radio" name="form-genero" id="form-genero-masculino"><label for="form-genero-masculino">Masculino</label>     <br>
+                <input type="radio" name="form-genero" id="form-genero-feminino"><label for="form-genero-feminino">Feminino</label>       <br>
+                </div>
+            <br>
+            <div>
+                <label for="form-data">Data atual</label>
+                <input type="date" name="form-data" id="form-data">
+            </div>
+            <br>
+            <div>
+                <label for="form-curso">Curso a frequentar</label>
+                <br>
+                <select name="form-curso" id="form-curso">
+                    <option value="form-curso-wd" disabled selected>Web Developer & Mobile</option>
+                    <option value="form-curso-outra">Outra</option>
+                </select>
+            </div>
+            <br>
+            <div>
+                <label for="form-message">Mensagem:</label><br>
+                <textarea name="" id="form-message" cols="30" rows="3"></textarea>
+            </div>
+            <div>
+                <input type="reset" value="Limpar">
+                <input type="submit" value="Enviar">
+            </div>
+            <br>
+            <small>* Campo(s) obrigatório(s)</small>
+        </fieldset>
+    </form>
+</main>
+
+<footer>
+    <hr>
+    <p>Desenvolvido por Rita Silva</p>
+</footer>    
+
+</body>
+</html>
