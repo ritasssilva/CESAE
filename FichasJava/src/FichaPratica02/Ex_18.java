@@ -32,6 +32,7 @@ public class Ex_18 {
         // Valores de acordo com cargo
 
         switch (cargo) {
+            case "e":
             case "E":
                 valorDia = 40;
                 subsidioAlimentacao = dias * 5;
@@ -43,6 +44,7 @@ public class Ex_18 {
                 segurancaSocial = vencimentoIliquido * (0.11 + 0.2375);
                 break;
 
+            case "c":
             case "C":
                 valorDia = 60;
                 subsidioAlimentacao = dias * 5;
@@ -54,13 +56,14 @@ public class Ex_18 {
                 segurancaSocial = vencimentoIliquido * (0.11 + 0.2375);
                 break;
 
+            case "a":
             case "A":
                 valorDia = 80;
                 subsidioAlimentacao = dias * 7.5;
-                if (vencimentoIliquido < 1000) {
-                    retencaoIRS = 0.10;
+                if (vencimentoIliquido > 1000) {
+                    retencaoIRS = 0.20;
                 } else {
-                        retencaoIRS = 0.20;
+                        retencaoIRS = 0.10;
                 }
                 segurancaSocial = vencimentoIliquido * (0.09 + 0.21);
                 break;
@@ -71,7 +74,6 @@ public class Ex_18 {
         System.out.println("Escolha inválida. Por favor, selecione um cargo válido");
         }
 
-
         // Cálculo Vencimento Iliquido
         vencimentoIliquido = dias * valorDia;
 
@@ -80,7 +82,6 @@ public class Ex_18 {
 
         // Cálculo Vencimento líquido
         vencimentoLiquido = vencimentoIliquido - retencaoIRS - segurancaSocial;
-
 
         // Apresentar os resultados
     System.out.println("Código de Funcionário: " + codigoFuncionario);
