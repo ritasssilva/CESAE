@@ -20,7 +20,7 @@ public class Ex_11 {
         // Apresentar os numeros inteiros de 0 até limite inclusivé com incremento do salto definido pelo utilizador
         while (x <= limite) {
             System.out.println(x); // Primeiro imprme o atual valor de x
-            x = x + salto; // Depois incrementa x
+            x += salto; // Depois incrementa x
         }
 
     }

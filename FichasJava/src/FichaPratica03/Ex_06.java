@@ -18,12 +18,9 @@ public class Ex_06 {
         System.out.println("Introduza um número de fim: ");
         numeroFim = input.nextInt();
 
-        // Inicializar x com o valor de numeroInicio
-        int x = numeroInicio;
-
-        while (x <= numeroFim) {
-            System.out.println(x);
-            x++;
+        while (numeroInicio <= numeroFim) {
+            System.out.println(numeroInicio);
+            numeroInicio++;
         }
 
 

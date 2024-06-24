@@ -23,5 +23,17 @@ public class Ex_10 {
             x++;
         }
 
+        // Resolução do Formador
+        // // Declarar variáveis
+        //        int num, inicio=2;
+        //
+        //        System.out.print("Insira um numero: ");
+        //        num = input.nextInt();
+        //
+        //        while (inicio<=num){
+        //            System.out.println(inicio);
+        //            inicio=inicio+2;
+        //        }
+
     }
 }

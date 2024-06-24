@@ -26,5 +26,24 @@ public class Ex_09 {
         media = soma / count;
         System.out.println("Média: " + media);
 
+        // Resolução do Formador
+
+        // // Declarar variáveis
+        //        int num=0, somatorio=1, contador=-1, media;
+        //
+        //        while(num!=-1){
+        //
+        //            System.out.print("Insira um número: ");
+        //            num= input.nextInt();
+        //
+        //            somatorio=somatorio+num;
+        //            contador++;
+        //
+        //        }
+        //
+        //        media=somatorio/contador;
+        //
+        //        System.out.println("Média: "+media);
+
     }
 }
