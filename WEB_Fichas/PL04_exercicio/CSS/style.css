@@ -1,0 +1,26 @@
+body {
+    background-color: bisque;
+    margin: 20 px;
+}
+
+header {
+    text-align: center;
+} 
+
+nav {
+    .social 
+    height: 40px;
+
+}
+
+footer {
+    text-align: center;
+    background-color: grey;
+    padding: 5px;
+    margin: 10px;
+}
+
+header>img {
+    width: 50%;
+}
+
