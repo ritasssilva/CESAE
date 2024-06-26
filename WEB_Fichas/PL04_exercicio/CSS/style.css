@@ -1,17 +1,37 @@
 body {
     background-color: bisque;
     margin: 20 px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
 }
 
 header {
     text-align: center;
 } 
 
+header>img {
+    width: 50%;
+    /* max-width: 800px;  <--- para que a imagem não aumente infinitamente para a dimensão de qualquer ecran */
+}
+
 nav {
-    .social 
+    background-color: grey;
+    padding: 5px;
+    margin: 10px;
+}
+
+nav a {
+    color: white;
+}
+
+.social {
     height: 40px;
 
 }
+
+main p { /* não aplico só a p porque senão o texto do rodapé fica justificado porque é parágrafo e não quero; quero centrado */
+    text-align: justify;
+}
+
 
 footer {
     text-align: center;
@@ -20,7 +40,5 @@ footer {
     margin: 10px;
 }
 
-header>img {
-    width: 50%;
-}
+
 
