@@ -8,16 +8,16 @@ public class Ex_01 {
 
         Scanner input = new Scanner(System.in);
 
-        int valor1, valor2;
+        double valor1, valor2;
         String operacao, continuar;
 
         // Pedir input ao utilizador
 
         System.out.println("Introduza o primeiro valor: ");
-        valor1 = input.nextInt();
+        valor1 = input.nextDouble();
 
         System.out.println("Introduza o segundo valor: ");
-        valor2 = input.nextInt();
+        valor2 = input.nextDouble();
 
         // Realizar as operações enquanto utilizador quiser continuar
 
@@ -44,6 +44,6 @@ public class Ex_01 {
             System.out.println("Deseja continuar? (introduza s/n)");
             continuar = input.next();
         }
-        while (continuar.equals("s"));
+        while (continuar.equalsIgnoreCase("s"));
     }
 }
