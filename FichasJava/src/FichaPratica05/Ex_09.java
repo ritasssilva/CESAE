@@ -15,8 +15,8 @@ public class Ex_09 {
 
 
         // Ler números e preencher a matriz
-        for (int i = 0; i < 5; i++) {
-            for (int j = 0; j < 5; j++) {
+        for (int i = 0; i < matriz.length; i++) {
+            for (int j = 0; j < matriz[0].length; j++) {
                 System.out.print("Insira um número na Matriz [" + i + "][" + j + "]: ");
                 matriz[i][j] = input.nextInt();
             }
@@ -26,8 +26,8 @@ public class Ex_09 {
 
 
         // Imprimir soma de todos os elementos
-        for (int i = 0; i < 5; i++) {
-            for (int j = 0; j < 5; j++) {
+        for (int i = 0; i < matriz.length; i++) {
+            for (int j = 0; j < matriz[0].length; j++) {
                 soma = soma + matriz[i][j];
             }
         }

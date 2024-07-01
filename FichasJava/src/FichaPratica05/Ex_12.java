@@ -29,15 +29,15 @@ public class Ex_12 {
         }
 
         // Preencher a matriz com os valores das sequências
-        for (int i = 0; i < 10; i++) {
+        for (int i = 0; i < matriz.length; i++) {
             matriz[i][0] = sequencia1[i];
             matriz[i][1] = sequencia2[i];
         }
 
         // Imprimir matriz
         System.out.println("Matriz:");
-        for (int i = 0; i < 10; i++) {
-            for (int j = 0; j < 2; j++) {
+        for (int i = 0; i < matriz.length; i++) {
+            for (int j = 0; j < matriz[0].length; j++) {
                 System.out.print(matriz[i][j] + " ");
             }
 

@@ -13,18 +13,18 @@ public class Ex_08 {
         int[][] matriz = new int[3][3];
 
         // Ler números e preencher a matriz
-        for (int i = 0; i < 3; i++) {
-            for (int j = 0; j < 3; j++) {
-                System.out.print("Insira um número na Matriz [" + i + "][" + j + "]: ");
-                matriz[i][j] = input.nextInt();
+        for (int linha = 0; linha < matriz.length; linha++) {
+            for (int coluna = 0; coluna < matriz[0].length; coluna++) {
+                System.out.print("Insira um número na Matriz [" + linha + "][" + coluna + "]: ");
+                matriz[linha][coluna] = input.nextInt();
             }
         }
 
         // Imprimir matriz
         System.out.println("Matriz:");
-        for (int i = 0; i < 3; i++) {
-            for (int j = 0; j < 3; j++) {
-                System.out.print(matriz[i][j] + " ");
+        for (int linha = 0; linha < matriz.length; linha++) {
+            for (int coluna = 0; coluna < matriz[0].length; coluna++) {
+                System.out.print(matriz[linha][coluna] + "\t|\t");
             }
             System.out.println();
         }

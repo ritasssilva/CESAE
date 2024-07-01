@@ -2,16 +2,20 @@ package FichaExtraArraysMatrizes;
 
 import java.util.Scanner;
 
-public class Ex_03 {
+public class Ex_06 {
     public static void main(String[] args) {
 
         // Import Scanner
         Scanner input = new Scanner(System.in);
 
         // Declarar variáveis
-        int[] vetor = new int[10];
+        int[] vetor = new int[0];
         int numero;
-        boolean existe = true;
+
+
+        //Pedir ao utilizador o tamanho do array
+        System.out.println("Quantos elementos quer inserir no Array: ");
+        numero = input.nextInt();
 
         // Ler vetor
         for (int i = 0; i < vetor.length; i++) {
@@ -22,21 +26,9 @@ public class Ex_03 {
 
         System.out.println("\n___________________________________________\n");
 
-
-        // Pesquisar o número no array
-        System.out.println("Número a pesquisar: ");
-        numero = input.nextInt();
-
+        // Imprimir vetor
         for (int i = 0; i < vetor.length; i++) {
-            if (vetor[i] == numero) {
-                existe = true;
-            }
-
-        }
-        if (existe = true) {
-            System.out.println(numero + " existe no array.");
-        } else {
-            System.out.println(numero + " não existe no array.");
+            System.out.println(vetor[i]);
         }
 
     }

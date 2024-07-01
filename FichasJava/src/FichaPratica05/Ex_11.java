@@ -14,8 +14,8 @@ public class Ex_11 {
         int maior, menor;
 
         // Ler números e preencher a matriz
-        for (int i = 0; i < 3; i++) {
-            for (int j = 0; j < 3; j++) {
+        for (int i = 0; i < matriz.length; i++) {
+            for (int j = 0; j < matriz[0].length; j++) {
                 System.out.print("Insira um número na Matriz [" + i + "][" + j + "]: ");
                 matriz[i][j] = input.nextInt();
             }
@@ -26,8 +26,8 @@ public class Ex_11 {
         menor = matriz[0][0];
 
         // Pesquisar o maior e o menor número na matriz
-        for (int i = 0; i < 3; i++) {
-            for (int j = 0; j < 3; j++) {
+        for (int i = 0; i < matriz.length; i++) {
+            for (int j = 0; j < matriz[0].length; j++) {
                 if (matriz[i][j] > maior) {
                     maior = matriz[i][j];
                 }
@@ -39,8 +39,8 @@ public class Ex_11 {
 
         // Imprimir matriz
         System.out.println("Matriz:");
-        for (int i = 0; i < 3; i++) {
-            for (int j = 0; j < 3; j++) {
+        for (int i = 0; i < matriz.length; i++) {
+            for (int j = 0; j < matriz[0].length; j++) {
                 System.out.print(matriz[i][j] + " ");
             }
             System.out.println();
